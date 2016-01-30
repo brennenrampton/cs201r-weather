@@ -1,0 +1,14 @@
+#attribution {
+	bottom:10;
+	left:10;
+}
+
+body {
+	padding-left: 15px;
+}
+
+.btn-primary {
+	background-color: rgb(119,35,252);
+	border-radius: 6px;
+	border-color: rgb(119,35,252);
+}
