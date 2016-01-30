@@ -15,13 +15,6 @@ $( "#cityfield" ).keyup(function() {
 		$("#txtHint").html(everything);
 
 		//deal with things that happen, log results to console
-
-  $.fail(function(jqXHR, textStatus, errorThrown) { 
-    console.log('getJSON request failed! ' + textStatus); 
-    console.log("incoming "+jqXHR.responseText);
-  })
-  $.always(function() { console.log('getJSON request ended!');
-  })
   $.complete(function() { console.log("complete"); });
 	});
 	
